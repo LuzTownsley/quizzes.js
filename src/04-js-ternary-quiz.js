@@ -42,8 +42,8 @@ console.log("[Question #3]: ", isEvenLength);
  * Given a variable score = 45, use a ternary operator to set a variable result to "Pass" if score is greater than or equal to 50 and "Fail" otherwise.
  */
 
-let score = 45;
-let result = score >= 50 ? "Pass" : "Fail";
+const score = 45;
+const result = score >= 50 ? "Pass" : "Fail";
 
 console.log("[Question #4]: ", result);
 
@@ -51,9 +51,8 @@ console.log("[Question #4]: ", result);
  * Question 5
  * Use a ternary operator to determine whether the number 15 is even or odd. Set a variable parity to the result.
  */
-
-let number = 15;
-let parity = number % 2 === 0 ? "Even" : "Odd";
+const number = 15;
+const parity = number % 2 === 0 ? "Even" : "Odd";
 
 console.log("[Question #5]: ", parity);
 
@@ -62,8 +61,8 @@ console.log("[Question #5]: ", parity);
  * Given a variable temperature = 22, use a ternary operator to set a variable outfit to "Wear a jacket" if temperature is below 20 and "T-shirt is fine" otherwise.
  */
 
-let temperature = 22;
-let outfit = temperature < 20 ? "Wear a jacket" : "T-shirt is fine";
+const temperature = 22;
+const outfit = temperature < 20 ? "Wear a jacket" : "T-shirt is fine";
 
 console.log("[Question #6]: ", outfit);
 
@@ -82,8 +81,8 @@ console.log("[Question #7]: ", isApple);
  * Given a variable height = 180, use a ternary operator to set a variable basketball to "You're tall enough to play" if height is greater than 175 and "Might be a bit short" otherwise.
  */
 
-let height = 180;
-let basketball =
+const height = 180;
+const basketball =
   height > 175 ? "You're tall enough to play" : "Might be a bit short";
 
 console.log("[Question #8]: ", basketball);
