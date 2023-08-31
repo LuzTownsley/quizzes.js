@@ -33,7 +33,7 @@ console.log("[Question #2]: ", status);
  */
 
 const numbers = [1, 2, 3, 4];
-const isEvenLength = numbers % 2 === 0 ? true : false;
+const isEvenLength = numbers.length % 2 === 0 ? true : false;
 
 console.log("[Question #3]: ", isEvenLength);
 
@@ -92,7 +92,7 @@ console.log("[Question #8]: ", basketball);
  * Given a variable day = "Sunday", use a ternary operator to set a variable workday to "Weekend" if day is either "Saturday" or "Sunday" and "Workday" otherwise.
  */
 
-const day = "sunday";
+const day = "Sunday";
 const workday = day === "Saturday" || day === "Sunday" ? "Weekend" : "Workday";
 
 console.log("[Question #9]: ", workday);
